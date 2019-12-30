@@ -1,0 +1,7 @@
+;; * .gitignore
+
+
+;; [[file:~/literate-programming/emacs-lisp-websites.org::*.gitignore][.gitignore:1]]
+*.el
+
+;; .gitignore:1 ends here
