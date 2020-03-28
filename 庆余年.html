@@ -5,11 +5,10 @@
 <title>庆余年</title>
 </head>
 <script>
-var m3u8='./m3u8-player.html?m3u8=';
 function selectOnchange(element){
 localStorage.setItem("current",element.selectedOptions[0].text);
 document.title='庆余年'+element.selectedOptions[0].text;
-window.location.href=(m3u8+element.value);
+window.location.href=(element.value);
 }
 document.title='庆余年'+(localStorage["current"]||"");
 </script>
